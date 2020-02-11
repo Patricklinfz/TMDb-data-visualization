@@ -1,10 +1,7 @@
 # Exploration of TMDB Movie Data
-## by Fangzhou Lin
-
 
 ## Dataset
 The TMDB movie data is and originally from [Kaggle](https://www.kaggle.com/tmdb/tmdb-movie-metadata/data). The dataset contains information about 10,000 movies collected from The Movie Database (TMDb), including user ratings, budget, revenue. The dataset also covers a duration from 1960 to 2015.
-
 
 ## Summary of Findings
 In exploration, popularity has a long-tailed distribution. A large amount of films falls on the low popularity end. Average vote shows a unimodal distribution that slightly left skewed. Big part of the data falls between 5 to 7.
@@ -14,7 +11,6 @@ Both the number of movies released and the number of horror movies have an overa
 I use average vote and popularity to compare horror and non-horror films via violin plots and box plots. In terms of average vote, horror genre is less favorable. Non-horror films exceeds horror films in average vote, with larger minimum, maximum, first quartile, third quartile and median of the distribution; regarding popularity, both median values falls way behind 1, suggesting a general low popularity. 
 
 I further investigate horror vs. non-horror films in average vote and popularity by decade. In every decade, the average vote and popularity of non-horror films is always higher. The average vote of non-horror films appears to be quite consistent over the decades while horror films rendered decreasing audience approval. For the past two decades when horror films increased in both absolute number and percentage, the genre cannot stop falling in average vote and popularity.
-
 
 ## Key Insights for Presentation
 I start by showing the distribution of popularity and average vote as a context. To see the major part of distribution in popularity, I change the ceiling value from 10 in data exploration to 6.
